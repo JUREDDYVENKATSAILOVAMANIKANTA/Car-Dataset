@@ -14,8 +14,8 @@ import pandas as pd
 
 
 
-file_path = r"‪C:\Users\\2024.csv".replace('\u202a', '')
-car = pd.read_csv(file_path)
+car = pd.read_csv( r"‪C:\Users\\2024.csv".replace('\u202a', '')
+
 
 
 # In[8]:
